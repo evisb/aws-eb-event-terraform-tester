@@ -1,0 +1,39 @@
+{
+    "version": "0",
+    "id": "6d1ea691-0f37-38b2-c74c-27cf3ff30d17",
+    "detail-type": "AWS Console Sign In via CloudTrail",
+    "source": "aws.signin",
+    "account": "304955174079",
+    "time": "2021-02-02T09:17:54Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "eventVersion": "1.08",
+        "userIdentity": {
+            "type": "IAMUser",
+            "principalId": "AIDAUOAF6VS7XKYVWNVKP",
+            "accountId": "304955174079",
+            "accessKeyId": "",
+            "userName": "cons-mgr-usr"
+        },
+        "eventTime": "2021-02-02T09:17:54Z",
+        "eventSource": "signin.amazonaws.com",
+        "eventName": "CheckMfa",
+        "awsRegion": "us-east-1",
+        "sourceIPAddress": "72.21.198.64",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36",
+        "requestParameters": null,
+        "responseElements": {
+            "CheckMfa": "Success"
+        },
+        "additionalEventData": {
+            "MfaType": "Virtual MFA"
+        },
+        "eventID": "13bf7279-141e-4be2-8aed-293411f715e9",
+        "readOnly": true,
+        "eventType": "AwsConsoleSignIn",
+        "managementEvent": true,
+        "eventCategory": "Management"
+    }
+}
+

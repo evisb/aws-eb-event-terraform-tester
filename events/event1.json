@@ -1,0 +1,9 @@
+{
+    "id": "e00c66cb-fe7a-4fcc-81ad-58eb60f5d96b",
+    "detail-type": "New Order",
+    "source": "Order Service",
+    "account": "123456789012",
+    "time": "2021-02-02T09:17:54Z",
+    "region": "us-east-1",
+    "detail": "{\"orderNumber\": \"123456\",\"productId\": \"shoe_007\",\"price\": 130,\"customer\": {\"name\": \"Nick Smit\",\"customerId\": \"987654321\",\"address\": \"2121 7th Ave, Seattle, WA 98121\"}}\",\"EventBusName\": \"default\"}"
+}

@@ -1,0 +1,8 @@
+{
+    "id": "1",
+    "source": "com.myorg.dep.app",
+    "detail-type": "myDetailType",
+    "account": "111111111111",
+    "region": "us-east-1",
+    "time": "2021-02-02T09:17:54Z"
+}
