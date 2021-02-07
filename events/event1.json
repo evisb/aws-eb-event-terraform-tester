@@ -5,5 +5,16 @@
     "account": "123456789012",
     "time": "2021-02-02T09:17:54Z",
     "region": "us-east-1",
-    "detail": "{\"orderNumber\": \"123456\",\"productId\": \"shoe_007\",\"price\": 130,\"customer\": {\"name\": \"Nick Smit\",\"customerId\": \"987654321\",\"address\": \"2121 7th Ave, Seattle, WA 98121\"}}\",\"EventBusName\": \"default\"}"
+    "detail": {
+        "orderNumber": "123456",
+        "productId": "x12345",
+        "price": 15,
+        "customer": {
+            "name": "J. Doe",
+            "customerId": "0123456789",
+            "address": "102 5th Ave, San Francisco, CA 94133"
+        }
+    },
+    "EventBusName": "default"
+}
 }
