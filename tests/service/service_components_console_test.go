@@ -34,8 +34,8 @@ func TestEventArchitectureComponents(t *testing.T) {
 
 	// Check that we get back the outputs that we expect
 	assert.Equal(t, eventBus, "default")
-	assert.Contains(t, sns, "us-east-1:304955174079")
-	assert.Contains(t, sqs, "us-east-1.amazonaws.com/304955174079")
+	assert.Contains(t, sns, "us-east-1:111111111111")
+	assert.Contains(t, sqs, "us-east-1.amazonaws.com/111111111111")
 	assert.Equal(t, eventPattern, "{\"detail-type\":[\"AWS Console Sign In via CloudTrail\"]}")
 	assert.Equal(t, ruleEnabled, true)
 	assert.Equal(t, inputPath, "rules/")
