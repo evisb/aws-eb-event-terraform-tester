@@ -1,6 +1,6 @@
 # aws-eb-event-terraform-tester
 
-A suite for testing AWS Event Bridge event payloads and constructs
+A suite for validating and testing AWS Event Bridge event payloads, constructs and delivery.
 
 ## Description
 
